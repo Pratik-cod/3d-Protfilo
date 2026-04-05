@@ -69,11 +69,29 @@ const logoIconsList = [
     imgPath: "/images/logos/company-logo-11.png",
   },
 ];
+const abilities = [
+  {
+    imgPath: "/images/seo.png",
+    title: "Excellence in Every Detail",
+    desc: "Committed to delivering flawless results with precision and care at every stage.",
+  },
+  {
+    imgPath: "/images/chat.png",
+    title: "Clear & Consistent Communication",
+    desc: "Ensuring transparency through timely updates and reliable collaboration.",
+  },
+  {
+    imgPath: "/images/time.png",
+    title: "Timely Project Delivery",
+    desc: "Meeting deadlines without compromising on quality or attention to detail.",
+  },
+];
 
 
 export {
   counterItems,
   words,
   navLinks,
-  logoIconsList
+  logoIconsList,
+  abilities
 }
